@@ -1,9 +1,36 @@
 
 
+#apps {
+    width: 20px;
+    height: auto; 
+
+}
+
+
+
+#signIn {
+    font-weight: bold;
+    border: 1px solid #4285f4;
+    background:#4285f4;
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    line-height: 28px
+
+
+}
+
+li:hover {
+    text-decoration: underline;
+
+}
+
 
 #navblock1, #navblock2{
     position: absolute;
-    font-size: 14px;
+    font-size: 13px;
 
 }
 
@@ -17,7 +44,7 @@
 
 li {
 display: inline;
-padding: 3px;
+padding: 10px;
 
 }
 
@@ -45,12 +72,25 @@ padding: 3px;
     width: auto;
 }
 
+#button1:hover, #button2:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+#button1:focus, #button2:focus {
+    border-color: blue;
+}
+
 #buttons {
 text-align: center;
 padding: 25px;
 }
 
 #button1, #button2{
+    
+    background-color: #f2f2f2;
     border: 1px;
     padding: 10px;
     margin:  10px;
