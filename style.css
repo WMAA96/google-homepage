@@ -1,5 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#content
+{
 
-
+    min-height: 100vh;
+    background: linear-gradient(white 91%, #eeeeee 9% ); 
+}
 #apps {
     width: 20px;
     height: auto; 
@@ -97,19 +105,23 @@ padding: 25px;
 }
 
 #botBlock {
-    height: 148px;
+
+    height: 150px;
     position: relative;
-    background: linear-gradient(white 75%, #eeeeee 25% );
 }
 
 #botBlock1, #botBlock2{
+
     color: grey;
     background: #eeeeee;
     position:absolute;
     bottom: 0%;
     font-size: 14px;
+    
 
 }
+
+
 
 #botBlock2
 {
