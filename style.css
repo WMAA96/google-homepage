@@ -5,8 +5,8 @@ body {
 #content
 {
 
-    min-height: 100vh;
-    background: linear-gradient(white 91%, #eeeeee 9% ); 
+
+    
 }
 #apps {
     width: 20px;
@@ -136,20 +136,21 @@ padding: 25px;
 }
 
 #botBlock {
-
-    height: 150px;
+    margin-top: 109px;
+    height: 100px;
     position: relative;
+    color: grey;
+    background: #eeeeee;
+
 }
 
 #botBlock1, #botBlock2{
-
+    
     color: grey;
     background: #eeeeee;
     position:absolute;
-    bottom: 0%;
     font-size: 14px;
-    
-
+    bottom: 25px;
 }
 
 
